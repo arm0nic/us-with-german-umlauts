@@ -10,19 +10,22 @@ Modified U.S. Keyboard layout with German Umlauts with `option` key:
 * `option` + `shift` + `s` => `ẞ`
 
 # Installation #
-1. To install the keyboard layout open `Terminal` on your mac and execute the command below.
+1. Download repository as `ZIP file` or type the following commands into your preferred `console`:
 
 ```
-curl -sL https://api.github.com/repos/patrick-zippenfenig/us-with-german-umlauts/tarball/master | tar xz --strip=1 -C ~/Library/Keyboard\ Layouts/
+cd ~/Downloads
+curl -sL https://api.github.com/repos/patrick-zippenfenig/us-with-german-umlauts/tarball/master | tar xz --strip=1
 ```
 
-2. Open `System Preferences` -> `Keyboard` -> `Input Sources`
-3. Click `+` and add `U.S. with German Umlauts`
-4. In the menu bar (top right) select `U.S with German Umlauts`
+2. Move the `.bundle` file to `/Library/Keyboard Layouts/`.
+3. Restart your Mac.
+4. Open `System Preferences` -> `Keyboard` -> `Input Sources`
+5. Click `+` and add `U.S. with German Umlauts`
+6. In the menu bar (top right) select `U.S with German Umlauts`
 
 # Uninstall #
 
-1. Delete directory `~/Library/Keyboard Layouts/US-with-German-Umlauts.bundle`
+1. Delete the file `/Library/Keyboard Layouts/US-with-German-Umlauts.bundle`
 
 # Credits #
 Generated with [Ukelele 3.2.7](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele) and tested on macOS 10.13 High Sierra and 10.14 Mojave.
